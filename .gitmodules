@@ -1,0 +1,3 @@
+[submodule "video360pty"]
+    path = video360pty
+    url = https://github.com/jasonsepulveda/video360pty.git
