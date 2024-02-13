@@ -190,7 +190,15 @@
                                 <p>Nuestro equipo apasionado trabaja incansablemente para infundir creatividad en cada aspecto, garantizando que tu evento sea único y refleje tu estilo. En Video 360 PTY, no solo capturamos momentos, creamos recuerdos. Permítenos ser tus socios en la creación de una experiencia excepcional que será recordada y celebrada por todos.</p>
                             </div>
                             <div class="about-btn">
-                                <a class="btn btn-orange" href="contact.html">Reservar Fecha</a>
+                                <div class="btn btn-orange">
+                                    <!-- Principio del widget de enlace de Calendly -->
+                                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                                    <a class="btn-1" href=""
+                                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/360pty/reserva-videobooth360'});return false;">Reserva
+                                        tu fecha</a>
+                                    <!-- Final del widget de enlace de Calendly -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -212,8 +220,7 @@
                     </div>
                 </div>
                 <div class="row g-0 justify-content-center">
-                    <div class="col-lg-3 col-sm-6 ">
-                        <a class="speaker-link" href="speaker-single.html">
+                    <div class="col-lg-3 col-sm-6 speaker-link">
                             <div class="single-speaker">
                                 <div class="speaker-thumb">
                                     <img src="assets/images/speaker/speaker_1.jpg" alt="Speaker">
@@ -227,8 +234,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
-                        <a class="speaker-link" href="speaker-single.html">
+                    <div class="col-lg-3 col-sm-6 speaker-link">
                             <div class="single-speaker">
                                 <div class="speaker-thumb">
                                     <img src="assets/images/speaker/speaker_2.jpg" alt="Speaker">
@@ -242,8 +248,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
-                        <a class="speaker-link" href="speaker-single.html">
+                    <div class="col-lg-3 col-sm-6 speaker-link">
                             <div class="single-speaker">
                                 <div class="speaker-thumb">
                                     <img src="assets/images/speaker/speaker_3.jpg" alt="Speaker">
@@ -257,8 +262,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
-                        <a class="speaker-link" href="speaker-single.html">
+                    <div class="col-lg-3 col-sm-6 speaker-link">
                             <div class="single-speaker">
                                 <div class="speaker-thumb">
                                     <img src="assets/images/speaker/speaker_4.jpg" alt="Speaker">
@@ -286,7 +290,7 @@
                         <div class="col-lg-4">
                             <div class="counter-content-left">
                                 <h4 class="counter-title">Obtén un descuento</h4>
-                                <a class="btn btn-orange" href="pricing.html">Acceder a cupón</a>
+                                <a class="btn btn-orange" href="evoucher.html">Acceder a cupón</a>
                                 <p class="p-margin">Úsalo antes que el contador termine</p>
                             </div>
                         </div>
