@@ -8619,3 +8619,11 @@ textarea:-ms-input-placeholder {
 .h5-m-t {
   margin-top: 20px;
 }
+
+.planes { 
+  color: #999;
+  font-size: 0.8rem;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
